@@ -1,0 +1,11 @@
+name: has_is_getters
+description: Annotations for generating `has...` and `is...` getters for fields.
+version: 0.0.1
+author: Marcel Garus <marcel.garus@gmail.com>
+homepage: https://github.com/marcelgarus/enum_value_getters
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dev_dependencies:
+  test: ^1.9.3

@@ -1,0 +1,23 @@
+targets:
+  $default:
+    builders:
+      has_getter_generator|has_getter|is_getters_generator|is_getters:
+        enabled: true
+
+builders:
+  has_getter:
+    target: ":has_getter_generator"
+    import: "package:has_is_getters_generator/has_getter_generator.dart"
+    builder_factories: ["generateHasGetter"]
+    build_extensions: { ".dart": [".has_getter.g.part"] }
+    auto_apply: dependents
+    build_to: source
+    applies_builders: ["source_gen|combining_builder"]
+  is_getters:
+    target: ":is_getters_generator"
+    import: "package:has_is_getters_generator/is_getters_generator.dart"
+    builder_factories: ["generateIsGetters"]
+    build_extensions: { ".dart": [".is_getters.g.part"] }
+    auto_apply: dependents
+    build_to: source
+    applies_builders: ["source_gen|combining_builder"]
