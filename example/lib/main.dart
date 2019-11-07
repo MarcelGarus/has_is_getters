@@ -17,8 +17,12 @@ class Fruit {
 void main() {
   var banana = Fruit(2, Shape.curved);
 
-  /*print(banana.isTheShapeRound);
+  print(banana.isTheShapeRound);
   print(banana.isTheShapeNotRound);
   print(banana.hasNumber);
-  print(banana.hasNoNumber);*/
+  print(banana.hasNoNumber);
+
+  if (banana.theShape == Shape.round) {
+    print('The shape is round.');
+  }
 }

@@ -184,7 +184,7 @@ packages:
     source: path
     version: "0.0.1"
   has_is_getters_generator:
-    dependency: "direct main"
+    dependency: "direct dev"
     description:
       path: "..\\has_is_getters_generator"
       relative: true

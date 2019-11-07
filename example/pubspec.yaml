@@ -3,8 +3,8 @@ name: example
 dependencies:
   has_is_getters:
     path: ../has_is_getters
-  has_is_getters_generator:
-    path: ../has_is_getters_generator
 
 dev_dependencies:
   build_runner: ^1.7.2
+  has_is_getters_generator:
+    path: ../has_is_getters_generator
