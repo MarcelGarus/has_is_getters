@@ -179,10 +179,10 @@ packages:
   has_is_getters:
     dependency: "direct main"
     description:
-      path: "..\\has_is_getters"
-      relative: true
-    source: path
-    version: "0.0.1"
+      name: has_is_getters
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.0.2"
   html:
     dependency: transitive
     description:
@@ -436,4 +436,4 @@ packages:
     source: hosted
     version: "2.2.0"
 sdks:
-  dart: ">=2.3.0 <3.0.0"
+  dart: ">=2.6.0-dev <3.0.0"

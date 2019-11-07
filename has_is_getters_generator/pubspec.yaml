@@ -1,16 +1,16 @@
 name: has_is_getters_generator
-version: 0.0.1
+description: Annotations for generating getters for checking whether a field is null or checking the value of a field.
+version: 0.0.2
 author: Marcel Garus <marcel.garus@gmail.com>
 homepage: https://github.com/marcelgarus/has_is_getters
 
 environment:
-  sdk: ">=2.2.2 <3.0.0"
+  sdk: ">=2.6.0-dev <3.0.0"
 
 dependencies:
   analyzer: ">=0.27.1 <1.0.0"
   build: ">=0.12.0 <2.0.0"
-  has_is_getters:
-    path: ../has_is_getters
+  has_is_getters: ^0.0.2
   source_gen: ^0.9.0
 
 dev_dependencies:

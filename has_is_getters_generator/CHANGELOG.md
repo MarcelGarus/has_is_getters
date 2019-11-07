@@ -1,3 +1,1 @@
-## [0.0.1] - TODO: Add release date.
-
-* TODO: Describe initial release.
+See the [`has_is_getters`](https://pub.dev/packages/has_is_getters)'s packages [changelog](https://pub.dev/packages/has_is_getters#-changelog-tab-) for the changes.
