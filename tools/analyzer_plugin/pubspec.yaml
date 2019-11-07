@@ -1,0 +1,6 @@
+name: has_is_getters_plugin_loader
+version: 0.0.1
+description: This pubspec determines the version of the analyzer plugin to load.
+
+environment:
+  sdk: ">=1.24.0-dev.1.0"
