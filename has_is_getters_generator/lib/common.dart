@@ -12,8 +12,11 @@ class CodeGenError extends Error {
 }
 
 /// Capitalizes the first letter of a string.
-String capitalize(String string) {
+String capitalize(String string, {bool removeLeadingUnderscore = false}) {
   assert(string.isNotEmpty);
+  if (removeLeadingUnderscore && string[0] == '_') {
+    string = string.substring(1);
+  }
   return string[0].toUpperCase() + string.substring(1);
 }
 
